@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Lab1.Entities;
 
@@ -88,6 +89,7 @@ namespace Lab1
         {
             bool IsLength = false;
             bool IsSymbol = false;
+            string symbols = "!@#$%^&";
             bool IsWhite = false;
             if (password.Length > 5 && password.Length < 11)
             {
@@ -96,7 +98,7 @@ namespace Lab1
             foreach (var item in password)
             {
                 
-                if (Char.IsSymbol(item))
+                if (symbols.Contains(item))
                 {
                     IsSymbol = true;
                 }
@@ -114,7 +116,9 @@ namespace Lab1
 
         public override bool IsPhoneValid(string phone)
         {
-            if (phone.Length == 11)
+            Regex number = new Regex(@"^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$");
+            MatchCollection m = number.Matches(phone);
+            if (m.Count > 0)
             {
                 return true;
             }
