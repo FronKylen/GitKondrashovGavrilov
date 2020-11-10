@@ -1,0 +1,13 @@
+C:\Users\FronKylen\source\repos\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\FronKylen\source\repos\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\FronKylen\source\repos\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\FronKylen\source\repos\Lab1\Lab1\bin\Debug\EntityFramework.dll
+C:\Users\FronKylen\source\repos\Lab1\Lab1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FronKylen\source\repos\Lab1\Lab1\bin\Debug\EntityFramework.xml
+C:\Users\FronKylen\source\repos\Lab1\Lab1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FronKylen\source\repos\Lab1\Lab1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\FronKylen\source\repos\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+C:\Users\FronKylen\source\repos\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\FronKylen\source\repos\Lab1\Lab1\obj\Debug\Lab1.csproj.CopyComplete
+C:\Users\FronKylen\source\repos\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\FronKylen\source\repos\Lab1\Lab1\obj\Debug\Lab1.pdb
