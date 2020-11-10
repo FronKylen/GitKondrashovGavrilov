@@ -105,7 +105,7 @@ namespace Lab1
                     IsWhite = true;
                 }
             }
-            if (IsSymbol == true && IsWhite == true && IsLength == true)
+            if (IsSymbol == false && IsWhite == false && IsLength == true)
             {
                 return true;
             }
