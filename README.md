@@ -15,4 +15,5 @@
 ### Начало работы 
 * На вашем компьютере должна быть установлена Windows 10 версии 1903 и выше.
 * У вас должна быть установлена последняя версия Visual Studio 2019. 
-* Необходимо клонировать репозиторий: https://github.com/FronKylen/GitKondrashovGavrilov
+* Необходимо клонировать репозиторий: 
+> https://github.com/FronKylen/GitKondrashovGavrilov
